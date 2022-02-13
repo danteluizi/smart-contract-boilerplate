@@ -1,0 +1,10 @@
+artifacts/
+cache/
+node_modules/
+.DS_Store
+coverage/
+coverage.json
+.env
+*.png
+*.csv
+*.txt

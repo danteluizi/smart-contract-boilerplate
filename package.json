@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "./scripts/lint",
     "format": "./scripts/format",
-    "tests": "npx hardhat test ./test/*",
+    "tests": "npx hardhat test",
     "coverage": "npx hardhat coverage --testfiles './test/*.js'"
   },
   "author": "warrentheape",

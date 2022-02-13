@@ -8,3 +8,5 @@ coverage.json
 *.png
 *.csv
 *.txt
+deployments/
+package-lock.json

@@ -1,4 +1,3 @@
-
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-etherscan";
@@ -26,13 +25,13 @@ const config = {
     deployer: 0,
   },
   mocha: {
-    timeout: 40000000000000
+    timeout: 40000000000000,
   },
   networks: {
     hardhat: {
       forking: {
         enabled: true,
-        url: `https://mainnet.infura.io/v3/${process.env.INFURA_TOKEN}`
+        url: `https://mainnet.infura.io/v3/${process.env.INFURA_TOKEN}`,
       },
     },
     mainnet: {
@@ -92,7 +91,7 @@ const config = {
         process.env.DEPLOY_PRIVATE_KEY == undefined
           ? []
           : [`0x${process.env.DEPLOY_PRIVATE_KEY}`],
-    }
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,

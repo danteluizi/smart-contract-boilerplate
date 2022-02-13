@@ -1,1 +1,3 @@
-# smart-contract-boilerplate
+# Smart Contract Boilerplate
+
+##
